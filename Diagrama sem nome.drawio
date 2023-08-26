@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T15:23:30.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EM-XvUE6b3gKWeLTHxUs" version="21.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-26T15:31:35.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cO9GPusLOScT3Ed6QzPJ" version="21.6.9" type="github" pages="2">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="954" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VGkYMRCd_Nsev36r-y5c" name="Modelo de Features">
-    <mxGraphModel dx="1949" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1357" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,7 +259,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bokaxBXJHnGieoA3h5Y1-1" value="Avaliação e comentários dos produtos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="525" width="210" height="60" as="geometry" />
+          <mxGeometry x="470" y="525" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bokaxBXJHnGieoA3h5Y1-3" value="Chat e suporte ao cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="160" width="150" height="60" as="geometry" />
@@ -283,6 +283,51 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="130" as="sourcePoint" />
             <mxPoint x="390" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-8" value="Sistema de transporte" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="525" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.807;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=oval;startFill=1;" edge="1" parent="1" source="bokaxBXJHnGieoA3h5Y1-8" target="JHo2yhhGlSXN7A_lceiu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="520" as="sourcePoint" />
+            <mxPoint x="740" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-10" value="Entrega por via terrestre (lenta)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="680" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-11" value="Entrega por via marítima (normal)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="680" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-12" value="Entrega por via aérea (rápida)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="680" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" edge="1" parent="1" source="bokaxBXJHnGieoA3h5Y1-10" target="bokaxBXJHnGieoA3h5Y1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="660" as="sourcePoint" />
+            <mxPoint x="630" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=oval;startFill=1;" edge="1" parent="1" source="bokaxBXJHnGieoA3h5Y1-11" target="bokaxBXJHnGieoA3h5Y1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="660" as="sourcePoint" />
+            <mxPoint x="630" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" edge="1" parent="1" source="bokaxBXJHnGieoA3h5Y1-12" target="bokaxBXJHnGieoA3h5Y1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="660" as="sourcePoint" />
+            <mxPoint x="630" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-22" value="" style="curved=1;endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="610" as="sourcePoint" />
+            <mxPoint x="730" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="660" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
