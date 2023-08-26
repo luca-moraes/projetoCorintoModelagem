@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T15:22:26.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wKR2TpjOZScniYfa0Dko" version="21.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-26T15:23:30.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EM-XvUE6b3gKWeLTHxUs" version="21.6.9" type="github" pages="2">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="954" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VGkYMRCd_Nsev36r-y5c" name="Modelo de Features">
-    <mxGraphModel dx="2190" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,6 +274,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="180" as="sourcePoint" />
             <mxPoint x="270" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-6" value="Autenticação dos itens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bokaxBXJHnGieoA3h5Y1-7" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=oval;startFill=0;" edge="1" parent="1" source="bokaxBXJHnGieoA3h5Y1-6" target="El6nhGCPAMiflY2KbDE7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="130" as="sourcePoint" />
+            <mxPoint x="390" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
