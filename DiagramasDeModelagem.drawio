@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T18:50:41.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="h4lWdJ-SpA9c9IEFG7E7" version="21.7.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-08T19:00:14.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1O0diJuNB-SWceUWig14" version="21.7.2" type="github" pages="6">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1434" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -791,8 +791,20 @@
         <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-19" value="IDetalheProd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="541" y="366" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-20" value="IVercatalogo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="539" y="386" width="60" height="30" as="geometry" />
+        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-20" value="IAddProdCarrinho" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="553" y="386" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-21" value="IFazerPag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="533" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-22" value="IReceberPag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="541" y="425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-23" value="IEntregarProd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="466" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-24" value="IPostarProd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="537" y="446" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
