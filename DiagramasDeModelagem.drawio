@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T19:00:14.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1O0diJuNB-SWceUWig14" version="21.7.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-08T19:00:49.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="96j7H8f0dkLcx7dAsR39" version="21.7.2" type="github" pages="6">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1434" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -742,7 +742,7 @@
             <mxPoint x="480" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-1" value="Nucleo de Compras&amp;nbsp;&lt;br&gt;e&lt;br&gt;Venda" style="shape=module;align=center;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-1" value="Gerenciamento de Compras&amp;nbsp;e Vendas" style="shape=module;align=center;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="350" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zmRJ5WM2NwrDkLUNO9Gr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=oval;endFill=0;strokeWidth=1;jumpSize=6;" edge="1" parent="1">
