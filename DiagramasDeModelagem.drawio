@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T08:11:10.018Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FK0XzRI2V8wz4EG3RwRA" version="21.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-09-10T08:11:24.094Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BHEOD2ac2cHnUhDBe4HD" version="21.7.4" type="github" pages="9">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1194" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1251,12 +1251,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X_StJnSlDl9eUDuqJpvT" name="Operações das interfaces de sistema">
-    <mxGraphModel dx="1822" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2232" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="J74Ny1mo7dkgXbyzmIFY-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;opacity=60;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="-46" width="886" height="886" as="geometry" />
+          <mxGeometry x="-40" y="-40" width="886" height="886" as="geometry" />
         </mxCell>
         <mxCell id="3URseoJYF3ak388kTYYM-1" value="&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;IVerCatalogo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="320" width="280" height="82" as="geometry" />
