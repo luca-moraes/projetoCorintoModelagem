@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T05:55:26.007Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NX-Hudx3cwOc34n4XSE4" version="21.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-09-10T06:02:27.587Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TEZPVlNbABDowiAWwd_G" version="21.7.4" type="github" pages="9">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1194" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1247,7 +1247,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X_StJnSlDl9eUDuqJpvT" name="Operações das interfaces de sistema">
-    <mxGraphModel dx="1194" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="995" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1402,13 +1402,13 @@
           <mxGeometry x="270" y="174" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oeQaCwSSphEYJX-bs1u8-1" value="&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;IConfirmarEntrega" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="520" width="200" height="82" as="geometry" />
+          <mxGeometry x="440" y="520" width="280" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="oeQaCwSSphEYJX-bs1u8-2" value="+ tipo:char" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oeQaCwSSphEYJX-bs1u8-1">
-          <mxGeometry y="30" width="200" height="26" as="geometry" />
+        <mxCell id="oeQaCwSSphEYJX-bs1u8-2" value="+ verificarRegistroEntregador(ID funcionarioID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oeQaCwSSphEYJX-bs1u8-1">
+          <mxGeometry y="30" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="oeQaCwSSphEYJX-bs1u8-3" value="+ rastreamento:char" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oeQaCwSSphEYJX-bs1u8-1">
-          <mxGeometry y="56" width="200" height="26" as="geometry" />
+        <mxCell id="oeQaCwSSphEYJX-bs1u8-3" value="+ confirmarEntrega(ID entregaID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oeQaCwSSphEYJX-bs1u8-1">
+          <mxGeometry y="56" width="280" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
