@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T06:02:27.587Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TEZPVlNbABDowiAWwd_G" version="21.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-09-10T06:03:01.154Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="uBqd9NREHrjjJ5axmy_t" version="21.7.4" type="github" pages="9">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1194" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -815,7 +815,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GLaw88IUlo4gFaVhkCLi-1" value="Modelo conceitual:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="-40" width="60" height="30" as="geometry" />
+          <mxGeometry x="10" y="-50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rqIlXAzNFMoTj1Z2Popk-2" value="PagamentoServico" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" width="240" height="108" as="geometry" />
