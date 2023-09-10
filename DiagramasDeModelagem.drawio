@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T07:41:25.276Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ySTX4VYTaXQu2LZFOtag" version="21.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-09-10T07:44:31.997Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9cpT1BjsTFEgZx-mgYGa" version="21.7.4" type="github" pages="9">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1194" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -480,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4-_-TW4CQCusx4tSyRFG" name="Diagramas de classes">
-    <mxGraphModel dx="823" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="995" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -563,11 +563,15 @@
         <mxCell id="OZX1iq9fgG8ZS8bJNdjm-25" value="+valorEstimado: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OZX1iq9fgG8ZS8bJNdjm-23" vertex="1">
           <mxGeometry y="56" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OZX1iq9fgG8ZS8bJNdjm-26" value="certifica" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;endFill=0;" parent="1" edge="1">
+        <mxCell id="OZX1iq9fgG8ZS8bJNdjm-26" value="certifica" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;endFill=0;" parent="1" edge="1" target="OZX1iq9fgG8ZS8bJNdjm-1" source="OZX1iq9fgG8ZS8bJNdjm-14">
           <mxGeometry y="1" relative="1" as="geometry">
             <mxPoint x="240" y="490" as="sourcePoint" />
-            <mxPoint x="370" y="490.5" as="targetPoint" />
+            <mxPoint x="340" y="491" as="targetPoint" />
             <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="260" y="487" />
+              <mxPoint x="260" y="487" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZX1iq9fgG8ZS8bJNdjm-27" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="OZX1iq9fgG8ZS8bJNdjm-26" connectable="0" vertex="1">
@@ -763,7 +767,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AfOzQc8rp1YK4N95vztj-36" value="" style="endArrow=none;html=1;rounded=0;entryX=1.02;entryY=0.149;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="OZX1iq9fgG8ZS8bJNdjm-6" target="OZX1iq9fgG8ZS8bJNdjm-32">
+        <mxCell id="AfOzQc8rp1YK4N95vztj-36" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="OZX1iq9fgG8ZS8bJNdjm-6" target="OZX1iq9fgG8ZS8bJNdjm-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="330" as="sourcePoint" />
             <mxPoint x="650" y="280" as="targetPoint" />
