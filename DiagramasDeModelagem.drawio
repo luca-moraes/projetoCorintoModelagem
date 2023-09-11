@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T18:46:34.191Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wc_dJocsWz-3yaQHMRK7" version="21.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-09-11T18:47:04.139Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yThCZZmYsLxIrxghNrRD" version="21.7.4" type="github" pages="9">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1434" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -715,7 +715,7 @@
             <mxPoint x="850" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AfOzQc8rp1YK4N95vztj-20" value="posta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AfOzQc8rp1YK4N95vztj-19" vertex="1" connectable="0">
+        <mxCell id="AfOzQc8rp1YK4N95vztj-20" value="cadastra" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AfOzQc8rp1YK4N95vztj-19" vertex="1" connectable="0">
           <mxGeometry x="-0.0152" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
