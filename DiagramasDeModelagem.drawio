@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T18:36:52.941Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3AzVolAyY9_I7xe0_JqV" version="21.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-09-11T18:40:05.712Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TJ9KKezFXATtSUFbU4qt" version="21.7.4" type="github" pages="9">
   <diagram name="CasosDeUso" id="JelgjD2opffosa8SOde1">
     <mxGraphModel dx="1434" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -546,6 +546,11 @@
             <mxPoint x="510" y="490" as="sourcePoint" />
             <mxPoint x="670" y="486.5" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="620" y="489" />
+              <mxPoint x="620" y="493" />
+              <mxPoint x="717" y="493" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZX1iq9fgG8ZS8bJNdjm-21" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="OZX1iq9fgG8ZS8bJNdjm-20" connectable="0" vertex="1">
@@ -606,6 +611,10 @@
             <mxPoint x="930" y="472" as="sourcePoint" />
             <mxPoint x="1137" y="470" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="910" y="491" />
+              <mxPoint x="1083" y="491" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZX1iq9fgG8ZS8bJNdjm-39" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="OZX1iq9fgG8ZS8bJNdjm-38" connectable="0" vertex="1">
@@ -767,13 +776,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AfOzQc8rp1YK4N95vztj-36" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="OZX1iq9fgG8ZS8bJNdjm-6" target="OZX1iq9fgG8ZS8bJNdjm-32" edge="1">
+        <mxCell id="AfOzQc8rp1YK4N95vztj-36" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="330" as="sourcePoint" />
-            <mxPoint x="650" y="280" as="targetPoint" />
+            <mxPoint x="1150" y="630" as="sourcePoint" />
+            <mxPoint x="1080" y="122" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1200" y="600" />
-              <mxPoint x="1200" y="92" />
+              <mxPoint x="1150" y="620" />
+              <mxPoint x="1200" y="620" />
+              <mxPoint x="1200" y="122" />
             </Array>
           </mxGeometry>
         </mxCell>
