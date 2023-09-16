@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T00:52:37.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2brIDhwF2UB2KemocAVo" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-16T00:53:10.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kQ1sRqQRpY5fD2CvHjdS" version="21.7.5" type="github" pages="2">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -27,6 +27,19 @@
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-48" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GtaRKO1UWOcPHmd-lrbg-31">
           <mxGeometry x="0.0712" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GtaRKO1UWOcPHmd-lrbg-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GtaRKO1UWOcPHmd-lrbg-1" source="GtaRKO1UWOcPHmd-lrbg-26" target="GtaRKO1UWOcPHmd-lrbg-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="10" />
+              <mxPoint x="1038" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GtaRKO1UWOcPHmd-lrbg-78" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GtaRKO1UWOcPHmd-lrbg-77">
+          <mxGeometry x="-0.959" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
