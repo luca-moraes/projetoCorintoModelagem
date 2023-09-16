@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T00:51:34.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="93mLapOyvrxONs4XjPbY" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-16T00:52:17.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6PS3eco8doCLPluXyguN" version="21.7.5" type="github" pages="2">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-1" value="Comprador" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="1280" height="120" as="geometry" />
+          <mxGeometry x="40" y="360" width="1120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-5" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GtaRKO1UWOcPHmd-lrbg-1">
           <mxGeometry x="50" y="47.5" width="25" height="25" as="geometry" />
@@ -61,7 +61,7 @@
           <mxGeometry x="1020" y="42.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-2" value="Vendedor" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="1280" height="120" as="geometry" />
+          <mxGeometry x="40" y="520" width="1120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GtaRKO1UWOcPHmd-lrbg-2" source="GtaRKO1UWOcPHmd-lrbg-8" target="GtaRKO1UWOcPHmd-lrbg-32">
           <mxGeometry relative="1" as="geometry" />
@@ -91,10 +91,10 @@
           <mxGeometry x="860" y="42.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-69" value="Negociação finalizada" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="GtaRKO1UWOcPHmd-lrbg-2">
-          <mxGeometry x="1030" y="42.5" width="35" height="35" as="geometry" />
+          <mxGeometry x="1020" y="42.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-4" value="Transportadora" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="680" width="1280" height="120" as="geometry" />
+          <mxGeometry x="40" y="680" width="1120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GtaRKO1UWOcPHmd-lrbg-4" source="GtaRKO1UWOcPHmd-lrbg-34" target="GtaRKO1UWOcPHmd-lrbg-71">
           <mxGeometry relative="1" as="geometry" />
