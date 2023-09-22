@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T23:00:26.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hGHQ0CtytxXEcUfGBKD2" version="21.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-22T23:02:53.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="133E9OhA0xFwNbfLz1-L" version="21.6.9" type="github" pages="2">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -514,6 +514,26 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="860" y="380" as="sourcePoint" />
             <mxPoint x="1020" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xy7hcFJQotrJr0ZNXUhi-12" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;elbow=vertical;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Xy7hcFJQotrJr0ZNXUhi-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1294" y="392" as="sourcePoint" />
+            <mxPoint x="1250" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xy7hcFJQotrJr0ZNXUhi-13" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="1" target="2lNFa7Bessl5lZM0Vw7c-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="288" as="sourcePoint" />
+            <mxPoint x="1256" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1215" y="358" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xy7hcFJQotrJr0ZNXUhi-14" value="Envia informações&amp;nbsp;&lt;br&gt;de pagamento" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xy7hcFJQotrJr0ZNXUhi-13">
+          <mxGeometry x="-0.3718" y="-2" relative="1" as="geometry">
+            <mxPoint x="-8" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
