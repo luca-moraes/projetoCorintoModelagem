@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T23:17:59.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="dgyK1OHgRog_cywPf-84" version="21.6.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-22T23:18:26.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="23aJPJmQJ_NVDT6LW3RY" version="21.6.9" type="github" pages="3">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -644,7 +644,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-33" value="Transportadora" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="5CF_1HLAxywndgFjs6Sz-1">
-          <mxGeometry x="40" y="840" width="1120" height="120" as="geometry" />
+          <mxGeometry x="40" y="680" width="1120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5CF_1HLAxywndgFjs6Sz-33">
           <mxGeometry relative="1" as="geometry">
@@ -662,7 +662,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-37" value="Avaliador especialsita" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="5CF_1HLAxywndgFjs6Sz-1">
-          <mxGeometry x="40" y="680" width="1120" height="120" as="geometry" />
+          <mxGeometry x="40" y="520" width="1120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5CF_1HLAxywndgFjs6Sz-37">
           <mxGeometry relative="1" as="geometry">
@@ -781,9 +781,6 @@
         </mxCell>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-66" value="Adicionar endereço de entrega" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5CF_1HLAxywndgFjs6Sz-41">
           <mxGeometry x="1152" y="32.5" width="97.5" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="5CF_1HLAxywndgFjs6Sz-67" value="Vendedor" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="5CF_1HLAxywndgFjs6Sz-1">
-          <mxGeometry x="40" y="520" width="1120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-68" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.188;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="5CF_1HLAxywndgFjs6Sz-1" source="5CF_1HLAxywndgFjs6Sz-45" target="5CF_1HLAxywndgFjs6Sz-6">
           <mxGeometry width="160" relative="1" as="geometry">
