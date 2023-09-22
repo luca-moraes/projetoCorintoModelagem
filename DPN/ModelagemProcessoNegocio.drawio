@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T16:12:04.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RyZdyXRvePPhRHiU02TU" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-22T16:19:00.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vip7273HZmO2MDBGAt5M" version="21.7.4" type="github" pages="2">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -206,12 +206,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TtS2lUMonDFSMliAg9Nu" name="Modelo To Be">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6v4QbtparM5iY0bVkObq-1" value="Sistema" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="360" width="1600" height="120" as="geometry" />
+          <mxGeometry x="40" y="360" width="1910" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6v4QbtparM5iY0bVkObq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6v4QbtparM5iY0bVkObq-1" source="6v4QbtparM5iY0bVkObq-5" target="6v4QbtparM5iY0bVkObq-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -271,6 +271,25 @@
           <mxGeometry x="1270" y="42.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="aicw6oGBLSSdAD0BwqQp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6v4QbtparM5iY0bVkObq-1" source="aicw6oGBLSSdAD0BwqQp-8" target="aicw6oGBLSSdAD0BwqQp-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lNFa7Bessl5lZM0Vw7c-3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="6v4QbtparM5iY0bVkObq-1">
+          <mxGeometry x="1329" y="42.5" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2lNFa7Bessl5lZM0Vw7c-4" value="Criar Carrinho" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="6v4QbtparM5iY0bVkObq-1">
+          <mxGeometry x="1430" y="32.5" width="97.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2lNFa7Bessl5lZM0Vw7c-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6v4QbtparM5iY0bVkObq-1" source="2lNFa7Bessl5lZM0Vw7c-3" target="2lNFa7Bessl5lZM0Vw7c-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1419" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lNFa7Bessl5lZM0Vw7c-6" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="6v4QbtparM5iY0bVkObq-1">
+          <mxGeometry x="1579" y="42.5" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2lNFa7Bessl5lZM0Vw7c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6v4QbtparM5iY0bVkObq-1" source="2lNFa7Bessl5lZM0Vw7c-4" target="2lNFa7Bessl5lZM0Vw7c-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nxpTNE4xo8rTw0tVmjKs-30" value="Transportadora" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
