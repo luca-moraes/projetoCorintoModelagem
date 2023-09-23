@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T00:25:53.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="sOt-qB6mDoXYrBPrsJzG" version="21.6.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-23T00:28:04.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="pu2D1XIujvVl_9KY2KKG" version="21.6.9" type="github" pages="3">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
           <mxGeometry x="440" y="40" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-71" value="Negociação finalizada" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="GtaRKO1UWOcPHmd-lrbg-4" vertex="1">
-          <mxGeometry x="1030" y="47.5" width="35" height="35" as="geometry" />
+          <mxGeometry x="1020" y="47.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="GtaRKO1UWOcPHmd-lrbg-19" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.855;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GtaRKO1UWOcPHmd-lrbg-6" target="GtaRKO1UWOcPHmd-lrbg-17" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -546,7 +546,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Modelo To Be Processo Cadastro Produto" id="bGz2bCBchgGKy_F5s1Jp">
-    <mxGraphModel dx="545" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="763" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-0" />
         <mxCell id="5CF_1HLAxywndgFjs6Sz-1" parent="5CF_1HLAxywndgFjs6Sz-0" />
@@ -941,8 +941,14 @@
         <mxCell id="gVHYKL9ex2RMPbyl-Cjv-71" value="Aguarda recebimento do produto" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gVHYKL9ex2RMPbyl-Cjv-55">
           <mxGeometry x="880" y="43.75" width="32.5" height="32.5" as="geometry" />
         </mxCell>
+        <mxCell id="Zbi1RC9vC-YujB26gkKQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gVHYKL9ex2RMPbyl-Cjv-55" source="Zbi1RC9vC-YujB26gkKQ-0" target="Zbi1RC9vC-YujB26gkKQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zbi1RC9vC-YujB26gkKQ-0" value="Realiza avaliação do produto" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gVHYKL9ex2RMPbyl-Cjv-55">
           <mxGeometry x="990" y="35" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zbi1RC9vC-YujB26gkKQ-4" value="Posta produto de volta para o vendedor" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gVHYKL9ex2RMPbyl-Cjv-55">
+          <mxGeometry x="1141" y="35" width="129" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gVHYKL9ex2RMPbyl-Cjv-72" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="5CF_1HLAxywndgFjs6Sz-1" source="gVHYKL9ex2RMPbyl-Cjv-59" target="5CF_1HLAxywndgFjs6Sz-6">
           <mxGeometry width="160" relative="1" as="geometry">
