@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T00:44:12.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="52HVkDgGl4WrM3X9TBT7" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-23T00:44:30.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="mV9R_3grTQDPwIf1Umu3" version="21.6.9" type="github" pages="4">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -546,7 +546,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Modelo To Be Processo Cadastro Produto" id="bGz2bCBchgGKy_F5s1Jp">
-    <mxGraphModel dx="489" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="477" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5CF_1HLAxywndgFjs6Sz-0" />
         <mxCell id="5CF_1HLAxywndgFjs6Sz-1" parent="5CF_1HLAxywndgFjs6Sz-0" />
@@ -755,7 +755,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HWyftVZWoiyWXEeg5jkr-1" value="Solicita" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HWyftVZWoiyWXEeg5jkr-0">
+        <mxCell id="HWyftVZWoiyWXEeg5jkr-1" value="Solicita lista" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HWyftVZWoiyWXEeg5jkr-0">
           <mxGeometry x="0.2598" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -881,7 +881,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5CF_1HLAxywndgFjs6Sz-75" value="Solicita&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5CF_1HLAxywndgFjs6Sz-74">
+        <mxCell id="5CF_1HLAxywndgFjs6Sz-75" value="Solicita cadastro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5CF_1HLAxywndgFjs6Sz-74">
           <mxGeometry x="0.3377" y="2" relative="1" as="geometry">
             <mxPoint x="-81" y="-8" as="offset" />
           </mxGeometry>
