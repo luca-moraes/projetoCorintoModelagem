@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T23:23:23.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Gzs9wr9OOm49qcExd0Cr" version="22.0.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-06T23:40:16.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="9kbnq232glohbKS2sTCu" version="22.0.0" type="github" pages="6">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1686,7 +1686,7 @@
         <mxCell id="pwqYFpOuYhJc-07XH3nQ-74" value="Obter pedidos de entrega" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pwqYFpOuYhJc-07XH3nQ-72">
           <mxGeometry y="52" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pwqYFpOuYhJc-07XH3nQ-75" value="Atualizar pedidos de entrega" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pwqYFpOuYhJc-07XH3nQ-72">
+        <mxCell id="pwqYFpOuYhJc-07XH3nQ-75" value="Inserir responsável pela entrega" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pwqYFpOuYhJc-07XH3nQ-72">
           <mxGeometry y="78" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pwqYFpOuYhJc-07XH3nQ-76" value="Atualizar &lt;i&gt;status &lt;/i&gt;da entrega" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pwqYFpOuYhJc-07XH3nQ-72">
