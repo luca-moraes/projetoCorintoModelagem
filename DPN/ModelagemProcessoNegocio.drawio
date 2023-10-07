@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-07T00:02:49.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="jD67QTYIX4DDpOu2ckLU" version="22.0.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-07T00:03:04.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="sm86b-bDeLy379pyOGf-" version="22.0.0" type="github" pages="7">
   <diagram name="Modelo As Is" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1773,10 +1773,10 @@
           <mxGeometry x="387" y="40" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SJPARvpmIdRFMrpjp_nK-9" value="Produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="SJPARvpmIdRFMrpjp_nK-4">
-          <mxGeometry x="530" y="40" width="106" height="40" as="geometry" />
+          <mxGeometry x="560" y="40" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SJPARvpmIdRFMrpjp_nK-10" value="Compra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="SJPARvpmIdRFMrpjp_nK-4">
-          <mxGeometry x="681" y="40" width="106" height="40" as="geometry" />
+          <mxGeometry x="720" y="40" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SJPARvpmIdRFMrpjp_nK-5" value="Serviço utilitário" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="SJPARvpmIdRFMrpjp_nK-2">
           <mxGeometry y="260" width="880" height="120" as="geometry" />
