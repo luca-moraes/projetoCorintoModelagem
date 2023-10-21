@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T00:51:49.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uf3gALGbUcjD8c-IHYzl" version="21.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-21T00:52:07.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="vAafvqUuZHE8f7RmWJkT" version="21.8.1" type="github" pages="2">
   <diagram name="Mensagem" id="JZtim8aUh2towmOD4KZB">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,10 @@
           <mxGeometry x="560" y="200" width="490" height="130" as="geometry" />
         </mxCell>
         <mxCell id="A7cy7TXvG4KszDsWyRtc-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Compra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_compra (compra : DadosCompra)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_status_entrega (status_compra : bool) : DadosCompra&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="560" y="360" width="490" height="130" as="geometry" />
+          <mxGeometry x="560" y="360" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="biUo7DJvL75zQGd17RmQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto (produto : DadosProduto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_produto_catalogo (produto : DadosProduto) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto_carrinho (produto : DadosProduto)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="475" width="490" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
