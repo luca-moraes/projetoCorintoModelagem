@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T00:42:40.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="GCEubJpaOMq-qf2CCbNo" version="22.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-28T00:43:56.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="qruH0wYJVSGxWfr_oyUc" version="22.0.8" type="github" pages="8">
   <diagram name="Mensagem" id="JZtim8aUh2towmOD4KZB">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,11 +234,12 @@
           <mxGeometry x="120" y="160" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="41R_sPgAST20Ih6ohb_J-5" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="41R_sPgAST20Ih6ohb_J-1" source="41R_sPgAST20Ih6ohb_J-6">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.25" relative="1" as="geometry">
             <mxPoint x="350" y="400" as="targetPoint" />
             <Array as="points">
               <mxPoint x="350" y="350" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="41R_sPgAST20Ih6ohb_J-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ValidarLogin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_login ( validar : DadosValidacaoLogin)&amp;nbsp; : autenticacao bool&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="41R_sPgAST20Ih6ohb_J-1">
@@ -255,6 +256,52 @@
         </mxCell>
         <mxCell id="Gjsg9mxqaKtxTeYg4ozc-1" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="41R_sPgAST20Ih6ohb_J-1" source="41R_sPgAST20Ih6ohb_J-10" target="41R_sPgAST20Ih6ohb_J-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Cópia do IntLogarDiagramaRealizacaoServicosUML" id="oQecQr1ST5GQSaZERoOX">
+    <mxGraphModel dx="954" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-0" />
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-1" parent="ZLO-SW_dL_KWWK-pgbaM-0" />
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.459;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;entryPerimeter=0;" edge="1" parent="ZLO-SW_dL_KWWK-pgbaM-1" source="ZLO-SW_dL_KWWK-pgbaM-4" target="owxAKY_CyQ1BVYXVFVxl-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-3" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZLO-SW_dL_KWWK-pgbaM-1" source="ZLO-SW_dL_KWWK-pgbaM-4" target="ZLO-SW_dL_KWWK-pgbaM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mediador&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MediadorLogar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt; Logar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_login ( validar : DadosValidacaoLogin)&amp;nbsp; : autenticacao bool&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="ZLO-SW_dL_KWWK-pgbaM-1">
+          <mxGeometry x="120" y="160" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-5" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZLO-SW_dL_KWWK-pgbaM-1" source="ZLO-SW_dL_KWWK-pgbaM-6">
+          <mxGeometry x="0.25" relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ValidarLogin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_login ( validar : DadosValidacaoLogin)&amp;nbsp; : autenticacao bool&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="ZLO-SW_dL_KWWK-pgbaM-1">
+          <mxGeometry x="120" y="280" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Node&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BancoDados&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="ZLO-SW_dL_KWWK-pgbaM-1">
+          <mxGeometry x="280" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Classe&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Login&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ adicionarLogin()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ adicionarHashSenha ()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ checarLoginSenha()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="ZLO-SW_dL_KWWK-pgbaM-1">
+          <mxGeometry x="280" y="400" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLO-SW_dL_KWWK-pgbaM-10" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZLO-SW_dL_KWWK-pgbaM-1" source="ZLO-SW_dL_KWWK-pgbaM-8" target="ZLO-SW_dL_KWWK-pgbaM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="owxAKY_CyQ1BVYXVFVxl-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto (produto : DadosProduto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_produto_catalogo (produto : DadosProduto) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto_carrinho (produto : DadosProduto)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="ZLO-SW_dL_KWWK-pgbaM-1">
+          <mxGeometry x="120" y="-40" width="490" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
