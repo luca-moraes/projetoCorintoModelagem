@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T00:45:16.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0yDsjdbhgp6yc3MvkgUE" version="22.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-28T00:45:27.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="3S-jPq3sXQ1duWcDTkoJ" version="22.0.8" type="github" pages="8">
   <diagram name="Mensagem" id="JZtim8aUh2towmOD4KZB">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,7 +277,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZLO-SW_dL_KWWK-pgbaM-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mediador&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MediadorProduto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt; Produto&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ inserir_produto (produto : DadosProduto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ atuzalizar_produto_catalogo (produto : DadosProduto) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ inserir_produto_carrinho (produto : DadosProduto)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="ZLO-SW_dL_KWWK-pgbaM-1">
-          <mxGeometry x="120" y="160" width="480" height="160" as="geometry" />
+          <mxGeometry x="120" y="160" width="480" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZLO-SW_dL_KWWK-pgbaM-5" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZLO-SW_dL_KWWK-pgbaM-1" source="ZLO-SW_dL_KWWK-pgbaM-6">
           <mxGeometry x="0.25" relative="1" as="geometry">
