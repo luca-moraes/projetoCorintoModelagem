@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T01:09:36.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uhQ74t3nkx7T4VXTtI03" version="22.0.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-10-28T01:12:52.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="BiZ5xvJL7Uxg55QwO9DD" version="22.0.8" type="github" pages="9">
   <diagram name="Mensagem" id="JZtim8aUh2towmOD4KZB">
-    <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,8 +40,49 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="wuOW9aep9jdT5zVFbdfa" name="Interface_servico">
+    <mxGraphModel dx="879" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7tnCkj3WViwJC0sU_wAv-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Usuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_usuario ( usuario: DadosUsuario)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PCRGC8BtuYw2ggHRhsda-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Especialista&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_especialista ( especialista: DadosEspecialista)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zmdttV2e_a9gB1dAl_Wd-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Transportadora&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_transportadora ( transportadora: DadosTransportadora)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zmdttV2e_a9gB1dAl_Wd-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Validar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_documento ( validar : DadosValidacaoDocumentos)&amp;nbsp; : resultado_avalicao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="320" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9V7AtkXLNeb_BaZpbLdo-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Logar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_login ( validar : DadosValidacaoLogin)&amp;nbsp; : autenticacao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kFSegNF93Y9SEMzQ_Zbl-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto (produto : DadosProduto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_produto_catalogo (produto : DadosProduto) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto_carrinho (produto : DadosProduto)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="490" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OguaOTg7TRTq61JGd_u3-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Prestar Serviço&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_servicos_prestados (nome_prestador : string) : DadosPrestacaoServicos&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+solicitar_pagamento_servicos(prestarServico: DadosPrestacaoServicos) : status_solicitacao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="540" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vuS8C2ziCpx8d0iajcY6-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Avaliar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_pedido_avaliacao (avalicao : DadosAvalicao)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_pedido_avaliacao&amp;nbsp;(avalicao : DadosAvalicao) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_pedido_avaliacao&amp;nbsp;(numero_pedido_avaliacao: int) :&amp;nbsp;DadosAvalicao&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_avalicao (avalicao : DadosAvalicao) : status_insercao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="490" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BE5blsYm9q_tVDbD7aEL-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Entrega&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_pedido_entrega (entrega : DadosEntrega)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_status_entrega (string: staus_entrega) : DadosEntrega&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_pedido_entrega&amp;nbsp;(numero_pedido_entrega : int) :&amp;nbsp;DadosEntrega&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_responsavel_entrega (nome_transportadora : string)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atualizar_conclusao_entrega (string: staus_entrega) : DadosEntrega&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="200" width="490" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="A7cy7TXvG4KszDsWyRtc-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Compra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_compra (compra : DadosCompra)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_status_entrega (status_compra : bool) : DadosCompra&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="360" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="biUo7DJvL75zQGd17RmQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Pagar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_informacoes_pagamento (pagar : DadosPagamento) : status_validacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+realizar_cobranca (pagar : DadosPagamento) : status_cobranca bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+gerar_pix (&amp;nbsp;pagamento: DadosPagamento)&amp;nbsp; : chave_pix string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+confirmar_pagamento (pagamento: DadosPagamento) : status_pagamento bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="480" width="490" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="bYdQEd1xytYvzClpv6pa" name="IntUsuarDiagramaRealizacaoServicosUML">
-    <mxGraphModel dx="1122" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +121,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="IntEspecDiagramaRealizacaoServicosUML" id="LK2hdRtUiyF1sT9ITZzR">
-    <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DX2To882-4oeg6bha5hd-0" />
         <mxCell id="DX2To882-4oeg6bha5hd-1" parent="DX2To882-4oeg6bha5hd-0" />
@@ -124,7 +165,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="IntTransporDiagramaRealizacaoServicosUML" id="eO6H5j5iAQN2wyK0Bwo6">
-    <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xNswR7M1mvphWWbO3et9-0" />
         <mxCell id="xNswR7M1mvphWWbO3et9-1" parent="xNswR7M1mvphWWbO3et9-0" />
@@ -168,7 +209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="IntValidarDiagramaRealizacaoServicosUML" id="d-ZbIf4BE8Rgq7dTGwMs">
-    <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1ksSoaxJ728yengzjbED-0" />
         <mxCell id="1ksSoaxJ728yengzjbED-1" parent="1ksSoaxJ728yengzjbED-0" />
@@ -215,7 +256,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="IntLogarDiagramaRealizacaoServicosUML" id="T1WCVNcUEZauS0pS1fZ0">
-    <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="41R_sPgAST20Ih6ohb_J-0" />
         <mxCell id="41R_sPgAST20Ih6ohb_J-1" parent="41R_sPgAST20Ih6ohb_J-0" />
@@ -261,7 +302,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="IntProdutoDiagramaRealizacaoServicosUML" id="oQecQr1ST5GQSaZERoOX">
-    <mxGraphModel dx="1706" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2425" dy="2264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZLO-SW_dL_KWWK-pgbaM-0" />
         <mxCell id="ZLO-SW_dL_KWWK-pgbaM-1" parent="ZLO-SW_dL_KWWK-pgbaM-0" />
@@ -383,7 +424,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Cópia do IntProdutoDiagramaRealizacaoServicosUML" id="vNyHW_xTjerqM53cS7gd">
-    <mxGraphModel dx="1706" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2083" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4HP9tCg1EQl-msLpH3y3-0" />
         <mxCell id="4HP9tCg1EQl-msLpH3y3-1" parent="4HP9tCg1EQl-msLpH3y3-0" />
@@ -458,47 +499,6 @@
         </mxCell>
         <mxCell id="zAuEJKbeGyvZoSHqTz3p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-21" target="zAuEJKbeGyvZoSHqTz3p-6">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="wuOW9aep9jdT5zVFbdfa" name="Interface_servico">
-    <mxGraphModel dx="879" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="7tnCkj3WViwJC0sU_wAv-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Usuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_usuario ( usuario: DadosUsuario)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="290" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="PCRGC8BtuYw2ggHRhsda-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Especialista&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_especialista ( especialista: DadosEspecialista)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="160" width="370" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="zmdttV2e_a9gB1dAl_Wd-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Transportadora&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_transportadora ( transportadora: DadosTransportadora)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="240" width="410" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="zmdttV2e_a9gB1dAl_Wd-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Validar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_documento ( validar : DadosValidacaoDocumentos)&amp;nbsp; : resultado_avalicao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="320" width="490" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="9V7AtkXLNeb_BaZpbLdo-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Logar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_login ( validar : DadosValidacaoLogin)&amp;nbsp; : autenticacao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="400" width="490" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="kFSegNF93Y9SEMzQ_Zbl-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto (produto : DadosProduto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_produto_catalogo (produto : DadosProduto) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_produto_carrinho (produto : DadosProduto)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="480" width="490" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="OguaOTg7TRTq61JGd_u3-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Prestar Serviço&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_servicos_prestados (nome_prestador : string) : DadosPrestacaoServicos&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+solicitar_pagamento_servicos(prestarServico: DadosPrestacaoServicos) : status_solicitacao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="600" width="540" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="vuS8C2ziCpx8d0iajcY6-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Avaliar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_pedido_avaliacao (avalicao : DadosAvalicao)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_pedido_avaliacao&amp;nbsp;(avalicao : DadosAvalicao) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_pedido_avaliacao&amp;nbsp;(numero_pedido_avaliacao: int) :&amp;nbsp;DadosAvalicao&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_avalicao (avalicao : DadosAvalicao) : status_insercao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="560" y="80" width="490" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="BE5blsYm9q_tVDbD7aEL-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Entrega&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_pedido_entrega (entrega : DadosEntrega)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_status_entrega (string: staus_entrega) : DadosEntrega&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_pedido_entrega&amp;nbsp;(numero_pedido_entrega : int) :&amp;nbsp;DadosEntrega&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_responsavel_entrega (nome_transportadora : string)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atualizar_conclusao_entrega (string: staus_entrega) : DadosEntrega&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="560" y="200" width="490" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="A7cy7TXvG4KszDsWyRtc-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Compra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_compra (compra : DadosCompra)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+atuzalizar_status_entrega (status_compra : bool) : DadosCompra&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="560" y="360" width="490" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="biUo7DJvL75zQGd17RmQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Pagar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_informacoes_pagamento (pagar : DadosPagamento) : status_validacao bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+realizar_cobranca (pagar : DadosPagamento) : status_cobranca bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+gerar_pix (&amp;nbsp;pagamento: DadosPagamento)&amp;nbsp; : chave_pix string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+confirmar_pagamento (pagamento: DadosPagamento) : status_pagamento bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="560" y="480" width="490" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
