@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T00:37:32.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sTaU5nW75G7dAL-No04r" version="22.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-28T00:37:47.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="k0Tvc3gbdTIiCkCy34BH" version="22.0.8" type="github" pages="6">
   <diagram name="Mensagem" id="JZtim8aUh2towmOD4KZB">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,13 +244,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1ksSoaxJ728yengzjbED-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Node&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BancoDados&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1ksSoaxJ728yengzjbED-1">
-          <mxGeometry x="280" y="530" width="140" height="50" as="geometry" />
+          <mxGeometry x="280" y="520" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="L1b-u6qt1Tln7QDJoD3x-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Validar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_documento ( validar : DadosValidacaoDocumentos)&amp;nbsp; : resultado_avalicao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1ksSoaxJ728yengzjbED-1">
           <mxGeometry x="120" y="40" width="480" height="70" as="geometry" />
         </mxCell>
         <mxCell id="R-LDh5FvK67zar4QVPOK-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Classe&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Documento&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ criarDocumento ()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validarDocumento ()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1ksSoaxJ728yengzjbED-1">
-          <mxGeometry x="280" y="400" width="140" height="90" as="geometry" />
+          <mxGeometry x="280" y="400" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
