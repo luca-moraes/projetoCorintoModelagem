@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T00:21:17.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1GQEiuR9Gn5XtXePEwlj" version="22.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-28T00:22:10.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="tuvc9bkz5E4SSkDBGxtt" version="22.0.8" type="github" pages="6">
   <diagram name="Mensagem" id="JZtim8aUh2towmOD4KZB">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,8 +224,8 @@
         <mxCell id="1ksSoaxJ728yengzjbED-3" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1ksSoaxJ728yengzjbED-1" source="1ksSoaxJ728yengzjbED-4" target="1ksSoaxJ728yengzjbED-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1ksSoaxJ728yengzjbED-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mediador&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MediadorValidar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt; Transportadora&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_transportadora&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;( transportadora: DadosTransportadora)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1ksSoaxJ728yengzjbED-1">
-          <mxGeometry x="160" y="160" width="400" height="80" as="geometry" />
+        <mxCell id="1ksSoaxJ728yengzjbED-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mediador&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MediadorValidar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt; Validar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_documento ( validar : DadosValidacaoDocumentos)&amp;nbsp; : resultado_avalicao bool&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1ksSoaxJ728yengzjbED-1">
+          <mxGeometry x="120" y="160" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1ksSoaxJ728yengzjbED-5" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1ksSoaxJ728yengzjbED-1" source="1ksSoaxJ728yengzjbED-6" target="1ksSoaxJ728yengzjbED-8">
           <mxGeometry relative="1" as="geometry">
@@ -234,8 +234,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ksSoaxJ728yengzjbED-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InserirCadastroValidar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inserir_casdatro_transportadora&amp;nbsp;( transportadora: DadosTransportadora)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1ksSoaxJ728yengzjbED-1">
-          <mxGeometry x="160" y="280" width="400" height="70" as="geometry" />
+        <mxCell id="1ksSoaxJ728yengzjbED-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InserirCadastroValidar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+validar_documento ( validar : DadosValidacaoDocumentos)&amp;nbsp; : resultado_avalicao bool&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1ksSoaxJ728yengzjbED-1">
+          <mxGeometry x="120" y="280" width="480" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ksSoaxJ728yengzjbED-7" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1ksSoaxJ728yengzjbED-1" source="1ksSoaxJ728yengzjbED-8" target="1ksSoaxJ728yengzjbED-9">
           <mxGeometry relative="1" as="geometry" />
