@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T00:59:17.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JgNhwV17V3Q-oiJ2ezQR" version="22.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-28T01:02:34.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="5QcG_SHWh_WivcE6rZ_I" version="22.0.8" type="github" pages="9">
   <diagram name="Mensagem" id="JZtim8aUh2towmOD4KZB">
     <mxGraphModel dx="954" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -378,6 +378,130 @@
         </mxCell>
         <mxCell id="owxAKY_CyQ1BVYXVFVxl-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ObterDetalhesProduto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="ZLO-SW_dL_KWWK-pgbaM-1">
           <mxGeometry x="760" y="320" width="440" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Cópia do IntProdutoDiagramaRealizacaoServicosUML" id="vNyHW_xTjerqM53cS7gd">
+    <mxGraphModel dx="1706" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-0" />
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-1" parent="4HP9tCg1EQl-msLpH3y3-0" />
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-11" target="zAuEJKbeGyvZoSHqTz3p-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-11" target="4HP9tCg1EQl-msLpH3y3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-4" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-3">
+          <mxGeometry x="-0.1772" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-11" target="4HP9tCg1EQl-msLpH3y3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-6" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-5">
+          <mxGeometry x="-0.0729" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-11" target="4HP9tCg1EQl-msLpH3y3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-8" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-7">
+          <mxGeometry x="-0.0417" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-11" target="4HP9tCg1EQl-msLpH3y3-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-10" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-9">
+          <mxGeometry x="-0.2444" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mediador&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MediadorProduto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt; Produto&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ inserir_produto (produto : DadosProduto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ atuzalizar_produto_catalogo (produto : DadosProduto) : status_atualizacao bool&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ inserir_produto_carrinho (produto : DadosProduto)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="120" y="160" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-14" target="4HP9tCg1EQl-msLpH3y3-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="400" />
+              <mxPoint x="400" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-13" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-12">
+          <mxGeometry x="-0.3133" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InserirProduto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&amp;nbsp;+ inserir_produto (produto : DadosProduto)" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="120" y="320" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Node&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BancoDados&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="320" y="640" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Classe&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ criarProduto()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ atualizarProduto()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removerProduto(&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ buscarProduto()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="320" y="480" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-17" value="Usa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-16" target="4HP9tCg1EQl-msLpH3y3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-21" target="4HP9tCg1EQl-msLpH3y3-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="440" />
+              <mxPoint x="400" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-20" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-19">
+          <mxGeometry x="0.4206" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;AtualizarProdutoCatalogo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ atuzalizar_produto_catalogo (produto : DadosProduto) : status_atualizacao bool&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="-360" y="320" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-24" target="4HP9tCg1EQl-msLpH3y3-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="400" />
+              <mxPoint x="400" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-23" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-22">
+          <mxGeometry x="-0.2333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InserirProdutoCarrinho&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ inserir_produto_carrinho (produto : DadosProduto)&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="400" y="320" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4HP9tCg1EQl-msLpH3y3-1" source="4HP9tCg1EQl-msLpH3y3-27" target="4HP9tCg1EQl-msLpH3y3-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="440" />
+              <mxPoint x="400" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-26" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HP9tCg1EQl-msLpH3y3-25">
+          <mxGeometry x="0.0323" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HP9tCg1EQl-msLpH3y3-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Componente de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ObterDetalhesProduto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ obter_detalhes_produto (nome_produto : string) : detalhes_produto : string&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="760" y="320" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zAuEJKbeGyvZoSHqTz3p-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface de Serviço&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Prestar Serviço&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+obter_servicos_prestados (nome_prestador : string) : DadosPrestacaoServicos&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+solicitar_pagamento_servicos(prestarServico: DadosPrestacaoServicos) : status_solicitacao bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="4HP9tCg1EQl-msLpH3y3-1">
+          <mxGeometry x="80" y="-40" width="560" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
